@@ -5,14 +5,14 @@ import Header from "./components/Header";
 import Menu from "./components/Menu";
 import SalesCard from "./components/SalesCard";
 
-function App() {
+function App02() {
   return (
     <>
       <ToastContainer />
       <Header />
 
 
-      <div className="dsmeta-menu">
+{/*      <div className="dsmeta-menu">
         <Menu />
       </div>
 
@@ -24,9 +24,9 @@ function App() {
 
           </div>
         </section>
-      </main>
+  </main>*/}
     </>
   )
 }
 
-export default App;
+export default App02;
