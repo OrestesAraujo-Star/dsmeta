@@ -1,37 +1,42 @@
 //import logo from '../../assets/img/logo.svg';
+import { Link } from 'react-router-dom';
+import '../MenuButton/styles.css';
+
+
+import Header from '../Header';
+import SalesCard from '../SalesCard';
+import App from '../../App';
 
 import './styles.css';
+
+
+
+
+
+
+
+
 
 function Menu() {
     let handleIncrease = () => {
         console.log('incrementar')
-
     }
     return (
-        <menu>
-
-            <button className="dsmeta-red-btn-menu" onClick={handleIncrease = () => { Teste() }}>Incrementar</button>
-
-            <button className="dsmeta-red-btn-menu" onClick={handleIncrease = () => { Teste1() }}>Decrementar</button>
-
-            <button className="dsmeta-red-btn-menu" onClick={handleIncrease = () => { Teste2() }}>Ir para...</button>
 
 
-        </menu>
+   <nav>
+        <a href="index.html">Inicio</a>
+        <a href="index1.html">Relatório</a>
+      
+
+   </nav>
+ 
+
     )
-}
 
+
+}
 export default Menu;
 
-function Teste() {
-    console.log('apertei o primeiro botão')
 
-}
-function Teste1() {
-    console.log('apertei o segundo botão')
 
-}
-function Teste2() {
-    console.log('apertei o terceiro botão')
-
-}

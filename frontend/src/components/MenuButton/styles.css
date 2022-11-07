@@ -8,9 +8,10 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    margin-right:auto;
+    color: white;
+    margin-right: auto;
     margin-left: auto;
-    color:white;
+  
 }
 
 .dsmeta-red-btn-menu img {

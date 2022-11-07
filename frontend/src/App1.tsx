@@ -13,13 +13,13 @@ import Menu from "./components/Menu";
 import SalesCard from "./components/SalesCard";
 import Cadastro from './components/Cadastro';
 
-function App() {
+function App1() {
   return (
     <>
       <Header/>
       <Menu/>
       
-      <Cadastro/>
+      <SalesCard/>
 
            
      
@@ -28,4 +28,4 @@ function App() {
   )
 }
 
-export default App;
+export default App1;
